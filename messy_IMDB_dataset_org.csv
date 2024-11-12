@@ -1,17 +1,17 @@
-IMBD title ID;Original titlÊ;Release year;Genrë¨;Duration;Country;Content Rating;Director;;Income; Votes ;Score
+IMBD title ID;Original titlï¿½;Release year;Genrï¿½;Duration;Country;Content Rating;Director;;Income;" Votes ";Score
 tt0111161;The Shawshank Redemption;1995-02-10;Drama;142;USA;R;Frank Darabont;;$ 28815245;2.278.845;9.3
 tt0068646;The Godfather;09 21 1972;Crime, Drama;175;USA;R;Francis Ford Coppola;;$ 246120974;1.572.674;9.2
-tt0468569;The Dark Knight; 23 -07-2008;Action, Crime, Drama;152;US;PG-13;Christopher Nolan;;$ 1005455211;2.241.615;9.
+tt0468569;The Dark Knight;" 23 -07-2008";Action, Crime, Drama;152;US;PG-13;Christopher Nolan;;$ 1005455211;2.241.615;9.
 tt0071562;The Godfather: Part II;1975-09-25;Crime, Drama;220;USA;R;Francis Ford Coppola;;$ 4o8,035,783;1.098.714;9,.0
-tt0110912;Pulp Fiction;1994-10-28;Crime, Drama; ;USA;R;Quentin Tarantino;;$ 222831817;1.780.147;8,9f
+tt0110912;Pulp Fiction;1994-10-28;Crime, Drama;" ";USA;R;Quentin Tarantino;;$ 222831817;1.780.147;8,9f
 tt0167260;The Lord of the Rings: The Return of the King;22 Feb 04;Action, Adventure, Drama;201;New Zealand;PG-13;Peter Jackson;;$ 1142271098;1.604.280;08.9
 tt0108052;Schindler's List;1994-03-11;Biography, Drama, History;Nan;USA;R;Steven Spielberg;;$ 322287794;1.183.248;8.9
-tt0050083;12 Angry Men;1957-09-04;Crime, Drama;96;USA;Not Rated;Sidney Lumet;;$ 576;668.473;8.9
+tt0050083;12 Angry Men\;1957-09-04;Crime, Drama;96;USA;Not Rated;Sidney Lumet;;$ 576;668.473;8.9
 tt1375666;Inception;2010-09-24;Action, Adventure, Sci-Fi;148;USA;PG-13;Christopher Nolan;;$ 869784991;2.002.816;8..8
 tt0137523;Fight Club;10-29-99;Drama;Inf;UK;R;David Fincher;;$ 101218804;1.807.440;8.8
 tt0109830;Forrest Gump;1994-10-06;Drama, Romance;142;USA;PG-13;Robert Zemeckis;;$ 678229452;1.755.490;8:8
 tt0120737;The Lord of the Rings: The Fellowship of the Ring;2002-01-18;Action, Adventure, Drama;178c;New Zesland;PG-13;Peter Jackson;;$ 887934303;1.619.920;8.8
-tt0060196;Il buono, il brutto, il cattivo;23rd December of 1966 ;Western;161;Italy;Approved;Sergio Leone;;$ 25252481;672.499;8.8
+tt0060196;Il buono, il brutto, il cattivo;"23rd December of 1966 ";Western;161;Italy;Approved;Sergio Leone;;$ 25252481;672.499;8.8
 ;;;;;;;;;;;
 tt0133093;The Matrix;1999-05-07;Action, Sci-Fi;NULL;USA;R;Lana Wachowski, Lilly Wachowski;;$ 465718588;1.632.315;++8.7
 tt0167261;The Lord of the Rings: The Two Towers;01/16-03;Action, Adventure, Drama;179;New Zeland;PG-13;Peter Jackson;;$ 951227416;1.449.778;8.7.
@@ -50,7 +50,7 @@ tt0095327;Hotaru no haka;2015-10-11;Animation, Drama, War;89;Japan;#N/A;Isao Tak
 tt0095765;Nuovo Cinema Paradiso;1988-11-17;Drama;155;Italy;#N/A;Giuseppe Tornatore;;$ 13826605;223.050;8.3
 tt0027977;Modern Times;1937-03-12;Comedy, Drama, Family;87;USA;G;Charles Chaplin;;$ 457688;211.250;8.3
 tt1345836;The Dark Knight Rises;2012-08-29;Action, Adventure;164;UK;PG-13;Christopher Nolan;;$ 1081133191;1.480.582;8.3
-tt1853728;Django Unchained;2013-01-17;Drama, Western;165;USA;R;Quentin Tarantino;;$ 425368238;1.317.856;8.3
+tt1853728;...Django Unchained;2013-01-17;Drama, Western;165;USA;R;Quentin Tarantino;;$ 425368238;1.317.856;8.3
 tt0209144;Memento;2001-01-19;Mystery, Thriller;113;USA;R;Christopher Nolan;;$ 39970386;1.098.879;8.2
 tt0910970;WALLÂ·E;2008-10-17;Animation, Adventure, Family;98;USA;G;Andrew Stanton;;$ 521311860;974.734;8.2
 tt0081505;The Shining;1980-12-22;Drama, Horror;146;UK;R;Stanley Kubrick;;$ 46520613;869.480;8.2
@@ -97,6 +97,6 @@ tt2106476;Jagten;2012-11-22;Drama;115;Denmark;R;Thomas Vinterberg;;$ 15843274;26
 tt0056172;Lawrence of Arabia;1963-10-29;Adventure, Biography, Drama;228;UK;PG;David Lean;;$ 45710874;261.504;7.5
 tt0070735;The Sting;1974-03-21;Comedy, Crime, Drama;129;USA;PG;George Roy Hill;;$ 156000000;236.285;7.5
 tt0082096;Das Boot;1982-03-18;Adventure, Drama, Thriller;149;West Germany;R;Wolfgang Petersen;;$ 11487676;226.427;7.5
-tt0059578;Per qualche dollaro in piÃ¹;1965-12-20;Western;132;Italy;#N/A;Sergio Leone;;$ 15000000;226.039;7.4
+tt0059578;/Per qualche dollaro in piÃ¹;1965-12-20;Western;132;Italy;#N/A;Sergio Leone;;$ 15000000;226.039;7.4
 tt1832382;Jodaeiye Nader az Simin;2011-10-21;Drama;123;Iran;PG-13;Asghar Farhadi;;$ 22926076;214.165;7.4
 tt0045152;Singin' in the Rain;1953-02-05;Comedy, Musical, Romance;103;USA;#N/A;Stanley Donen;;$ 1864182;213.152;7.4
