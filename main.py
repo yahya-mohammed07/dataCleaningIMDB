@@ -4,7 +4,7 @@ import re
 
 data: pd.DataFrame = pd.read_csv("messy_IMDB_dataset_cleaned.csv", sep=';',
                                  # Handle various null indicators
-                                 quotechar='"', encoding='utf-8'
+                                 quotechar='"', encoding='utf-8',
                                  )
 
 data = data.replace('', np.nan)
@@ -24,12 +24,13 @@ def cleaning(df: pd.DataFrame):
   df['Release year'] = pd.to_datetime(
       # one format for the date
       df['Release year'], format='mixed', errors='coerce')
+  # duration
   df['Duration'] = df['Duration'].astype(
       str).apply(lambda x: re.sub(r'\D', '', x))
-  df['Country'] = df['Country'].astype(
-      str).apply(lambda x: re.sub(r'\W', '', x))
-  df['Country'] = df['Country'].astype(
-      str).apply(lambda x: re.sub(r'\d', '', x))
+
+  # country
+  df['Country'] = df['Country'].str.strip(
+      '123._/\\')  # remove numbers, _, ., \
 
   # Handle missing values and convert to string
   df['Content Rating'] = df['Content Rating'].fillna('').astype(str)
@@ -51,7 +52,8 @@ def cleaning(df: pd.DataFrame):
       lambda x: re.sub(r'[a-zA-Z]', '', str(x)))  # remove all a-z
 
   # votes
-  df['Votes'] = df['Votes'].astype(str).str.replace('.', ',', regex=False)
+  # df['Votes'] = df['Votes'].fillna(' ')
+  df['Votes'] = df['Votes'].str.replace('.', ',', regex=False)
 
   # Score
   def clean_and_format_number(x):
