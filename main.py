@@ -52,6 +52,44 @@ def cleaning(df: pd.DataFrame):
 
   # votes
   df['Votes'] = df['Votes'].astype(str).str.replace('.', ',', regex=False)
+
+  # Score
+  def clean_and_format_number(x):
+    if pd.isna(x):  # Handle NaN values
+      return x
+
+    # Convert to string and replace separators with dot
+    x_str = str(x).replace(',', '.').replace(';', '.').replace(':', '.')
+
+    # Remove everything except numbers and dots
+    cleaned = re.sub(r'[^0-9.]', '', x_str)
+
+    # Handle multiple dots
+    dot_parts = cleaned.split('.')
+    if len(dot_parts) > 2:  # Multiple dots
+      cleaned = dot_parts[0] + '.' + ''.join(dot_parts[1:])
+
+    # Handle empty string or just a dot
+    if not cleaned or cleaned == '.':
+      return 'Invalid'
+
+    try:
+      num = float(cleaned)
+      # Format the number
+      if num.is_integer():
+        return str(int(num))
+      else:
+        # Round to 1 decimal place
+        formatted = "{:.1f}".format(num)
+        # If it ends with .0, convert to integer
+        if formatted.endswith('.0'):
+          return formatted[:-2]
+        return formatted
+    except ValueError:
+      return 'Invalid'
+
+  df['Score'] = df['Score'].apply(clean_and_format_number)
+
   return df
 
 
