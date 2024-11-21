@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import re
 
 data: pd.DataFrame = pd.read_csv("messy_IMDB_dataset_cleaned.csv", sep=';',
@@ -7,8 +6,6 @@ data: pd.DataFrame = pd.read_csv("messy_IMDB_dataset_cleaned.csv", sep=';',
                                  quotechar='"', encoding='utf-8',
                                  )
 
-data = data.replace('', np.nan)
-data = data.replace(' ', np.nan)
 
 
 def cleaning(df: pd.DataFrame):
